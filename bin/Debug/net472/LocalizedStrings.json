@@ -1,0 +1,224 @@
+[
+  {
+    "Key": "MyFeat.Name",
+    // Don't process this since it is just a name. Without this it might create strange artifacts by trying to create
+    // links to encycolpedia pages.
+    "ProcessTemplates": false,
+    "enGB": "My Feat",
+    "ruRU": "Мой фит"
+  },
+
+  {
+    "Key": "MyFeat.Description",
+    "enGB": "Yes, now this is my feat, what's next?",
+    "ruRU": "Да, теперь это мой фит, чё дальше?"
+  },
+  {
+    "Key": "AspectOfGallu.Name",
+    "ProcessTemplates": false,
+    "enGB": "Aspect Of Gallu",
+    "ruRU": "Аспект Галлу"
+  },
+
+  {
+    "Key": "AspectOfGallu.Description",
+    "enGB": "The demon takes on the aspect of Gallu, gaining an additional bite attack.\nWhile the demon remains enraged, it creates an aura of confusion around itself. {g|Encyclopedia:Flanking}The numerical advantage{/g} of enemies affected by this aura does not work.",
+    "ruRU": "Демон пробретает аспект Галлу, получая дополнительную атаку укусом.\nПока демон остается в ярости, он создаёт ауру беспорядка вокруг себя. {g|Encyclopedia:Flanking}Численное преимущество{/g} для врагов, попавших под влияние этой ауры, не работает."
+  },
+  {
+    "Key": "GalluAura.Name",
+    "ProcessTemplates": false,
+    "enGB": "Aura of confusion",
+    "ruRU": "Аура беспорядка"
+  },
+
+  {
+    "Key": "GalluAura.Description",
+    "enGB": "The presence of the Gallu creates havoc, saturating the battlefield with elements of chaos and entropy that hinder thoughtful coordination and tactical planning, and manipulating chance and fate itself. This aura extends in a 30-foot radius around the gallu. {g|Encyclopedia:Flanking}Numerical advantage{/g} does not work in the affected area.A creature summoned to this area by any creature other than the demon itself must make a successful {g|Encyclopedia:Saving_Throw}saving throw{/g} of {g|Encyclopedia:DC}difficulty{/g} 26 will to avoid confusion for {g| Encyclopedia:Dice}1d4{/g} {g|Encyclopedia:Combat_Round}round{/g}. Paladins and creatures of the lawful subtype must make a DC 26 Will saving throw each round when they start their turn in the aura's area to avoid nausea for 1 round.\nThe difficulty of the save is based on {g|Encyclopedia:Charisma}Charisma{/g }.",
+    "ruRU": "Присутствие галлу создает разруху, насыщая поле боя элементами хаоса и энтропии, препятствующими продуманной координации и тактическому планированию, и манипулируя самими случаем и судьбой. Эта аура распространяется на радиус 30 футов вокруг галлу. {g|Encyclopedia:Flanking}Численное преимущество{/g} в попавшей под его влияние области не работает. Существо, призванное в эту область любым существом, помимо самого демона, должно совершить успешный {g|Encyclopedia:Saving_Throw}спасбросок{/g} воли {g|Encyclopedia:DC}сложности{/g} 26, чтобы избежать замешательства на {g|Encyclopedia:Dice}1d4{/g} {g|Encyclopedia:Combat_Round}раунда{/g}. Паладины и существа законопослушного подтипа должны совершать спасбросок воли сложности 26 в каждом раунде, когда они начинают свой ход в зоне действия этой ауры, чтобы избежать тошноты в течение 1 раунда.\nСложность спасброска основана на {g|Encyclopedia:Charisma}Харизме{/g}."
+  },
+  {
+    "Key": "ExtraMajorAspect.Name",
+    "ProcessTemplates": false,
+    "enGB": "Extra major aspect",
+    "ruRU": "Дополнительный высший аспект"
+  },
+
+  {
+    "Key": "ExtraMajorAspect.Description",
+    "enGB": "Now you can use one more higher aspect at a time.",
+    "ruRU": "Теперь вы можете использовать на один высший аспект больше одновременно."
+  },
+  {
+    "Key": "DemonForcedRageFeature.Name",
+    "ProcessTemplates": false,
+    "enGB": "Unstoppable Rage",
+    "ruRU": "Неудержимая ярость"
+  },
+  {
+    "Key": "DemonForcedRageFeature.Description",
+    "enGB": "If a demon is under an effect that makes it frightened, disoriented, shocked, dazed, paralyzed, causing stupor, shock, nausea, or confusion, this effect is dispelled, and the demon goes into an Unstoppable rage for 2 round. Under its effect, he begins to attack the nearest target, gains a morale bonus of +8 to physical characteristics, +4 to natural armor, and a gain bonus of +30 to speed. Unstoppable Rage applies Demonic rage and aspects. Demonic Rage uses do not cost.",
+    "ruRU": "Если демон оказывается под эффектом, делающим его напуганным, дезориентированным, потрясённым, ошеломлённым, парализованным, вызывающим ступор, шок, тошноту или замешательство, этот эффект развеивается, а демон впадает в неконтролируемую ярость на 2 раунда. Под её действием, он начинает атакавать ближайшую цель, получает бонус боевого духа +8 к физическим характеристикам, +4 к естественной броне и бонус усиления +30 к скорости. Неконтролируемая ярость применяет демоническую ярость и аспекты. Приминения демонической ярости не тратятся."
+  },
+  {
+    "Key": "PoisonOfCorrupt.Name",
+    "ProcessTemplates": false,
+    "enGB": "Aspect Of Gallu",
+    "ruRU": "Зелье Очищения от порчи Бездны"
+  },
+
+  {
+    "Key": "PoisonOfCorrupt.Description",
+    "enGB": "This is my feat, not your feat.",
+    "ruRU": "Зелье Очищения от порчи Бездны."
+  },
+  {
+    "Key": "DemonTeleportFeature.Description",
+    "enGB": "As a {g|Encyclopedia:Swift_Action}swift action{/g}, you teleport to any point up to long distance.",
+    "ruRU": "Совершив {g|Encyclopedia:Swift_Action}быстрое действие{/g} вы можете телепортироваться в любую точку вплоть до большого расстояния."
+  },
+  {
+    "Key": "Settings.Title",
+    "enGB": "DemonFix",
+    "ruRU": "DemonFix"
+  },
+  {
+    "Key": "Settings.Visual",
+    "enGB": "Visual",
+    "ruRU": "Внешний вид(Нужен рестарт)"
+  },
+  {
+    "Key": "Settings.Mechanics",
+    "enGB": "Mechanics",
+    "ruRU": "Механика(Нужен рестарт)"
+  },
+  {
+    "Key": "Settings.Fun",
+    "enGB": "Other",
+    "ruRU": "Разное(Нужен рестарт)"
+  },
+  {
+    "Key": "Settings.DemonSkinOff",
+    "enGB": "Disable red skin",
+    "ruRU": "Отключить красную кожу"
+  },
+  {
+    "Key": "Settings.DemonSkinOffLong",
+    "enGB": "Disables red demon skin. The tail, horns, purple eyes and 'scales' will remain.",
+    "ruRU": "Отключает красную кожу демона. Хвос, рога, фиолетовые глаза и 'чешуя' останутся."
+  },
+
+  {
+    "Key": "Settings.DemonSkinOff2",
+    "enGB": "Disable red skin",
+    "ruRU": "Отключить 'чешую' и фиолетовые глаза"
+  },
+  {
+    "Key": "Settings.DemonSkinOffLong2",
+    "enGB": "Disables red demon skin. The tail, horns, purple eyes and 'scales' will remain.",
+    "ruRU": "Отключает чешую и фиолетовые глаза."
+  },
+  {
+    "Key": "Settings.DemonTail",
+    "enGB": "Disable demon tail",
+    "ruRU": "Отключить хвост"
+  },
+  {
+    "Key": "Settings.DemonTailLong",
+    "enGB": "Disables tail.",
+    "ruRU": "Отключает хвост."
+  },
+  {
+    "Key": "Settings.Icons",
+    "enGB": "Ability icons",
+    "ruRU": "Иконки способностей"
+  },
+  {
+    "Key": "Settings.IconsDesc",
+    "enGB": "Adds unique icons for Demonic Rage and Aspects.",
+    "ruRU": "Добавляет уникальные иконки для Демонической ярости и Аспектов."
+  },
+  {
+    "Key": "Settings.GalluAspect",
+    "enGB": "Aspect of Gallu",
+    "ruRU": "Аспект Галлу"
+  },
+  {
+    "Key": "Settings.DemonRage",
+    "enGB": "Demon rage patch",
+    "ruRU": "Патч Демонической ярости"
+  },
+  {
+    "Key": "Settings.DemonRageDesc",
+    "enGB": "Uses of Demonic rage increases by 2 per mythic level.",
+    "ruRU": "Количество применений Демонической ярости увеличивается на 2 за мифический уровень."
+  },
+  {
+    "Key": "Settings.DemonRageLimit",
+    "enGB": "Limitless Demon rage",
+    "ruRU": "Безграничная Демоническая ярость"
+  },
+  {
+    "Key": "Settings.DemonRageLimitDesc",
+    "enGB": "Limitless Rage now affects Demonic Rage.",
+    "ruRU": "Безграничная ярость теперь действует и на Демоническую ярость."
+  },
+  {
+    "Key": "Settings.AbbysalStorm",
+    "enGB": "Abbysal Storm patch",
+    "ruRU": "Патч Демонической бури"
+  },
+
+  {
+    "Key": "Settings.AbbysalStormDesc",
+    "enGB": "Abbysal Storm will not damage the demon.",
+    "ruRU": "Демоническая буря не будет наносить урона демону."
+  },
+
+  {
+    "Key": "Settings.Teleport",
+    "enGB": "Add true Demon teleport",
+    "ruRU": "Патч Демонической телепортации"
+  },
+
+  {
+    "Key": "Settings.TeleportDesc",
+    "enGB": "Removes the teleport from the demon spellbook and adds a normal demonic teleporter to mythic level 6.\nAs a {g|Encyclopedia:Swift_Action}swift action{/g}, you teleport to any point up to long distance.",
+    "ruRU": "Удаляет телепорт-огрызок 4 круга из книги заклинаний демона и добавляет нормальный демонический телепорт на 6 мифический уровень.\nСовершив {g|Encyclopedia:Swift_Action}быстрое действие{/g} вы можете телепортироваться в любую точку вплоть до большого расстояния."
+  },
+
+
+  {
+    "Key": "Settings.MoreAspects",
+    "enGB": "More Aspects",
+    "ruRU": "Дополнительные аспекты"
+  },
+
+  {
+    "Key": "Settings.MoreAspectsDesc",
+    "enGB": "Adds one minor aspect at the second mythic demon level, one major aspect, and the aspect of the demon lord at the seventh mythic demon level. At mythic level 5, two higher aspects can be used at the same time.",
+    "ruRU": "Добавляет выбор одного малого аспекта на втором мифическом уровне демона, одного высшего аспекта и аспекта повелителя демонов на седьмом мифическом уровне демона. На 5 мифическом уровне можно использовать два высших аспекта одновременно."
+  },
+  {
+    "Key": "Settings.ForcedRage",
+    "enGB": "Forced Rage patch",
+    "ruRU": "Патч Неудержимой ярости"
+  },
+  {
+    "Key": "Settings.ForcedRageDesc",
+    "enGB": "A patch for a buggy trait that was left unfinished by the OwlCats. If disabled - removes the trait, enabled - patches:\nIf a demon is under an effect that makes it frightened, disoriented, shocked, dazed, paralyzed, causing stupor, shock, nausea, or confusion, this effect is dispelled, and the demon goes into an Unstoppable rage for 2 round. Under its effect, he begins to attack the nearest target, gains a morale bonus of +8 to physical characteristics, +4 to natural armor, and a gain bonus of +30 to speed. Unstoppable Rage applies Demonic rage and aspects. Demonic Rage uses do not cost.",
+    "ruRU": "Патч недоделанной Совокотиками черты, вызывающей баги. Если отключено - удаляет черту, включено - патчит:\nЕсли демон оказывается под эффектом, делающим его напуганным, дезориентированным, потрясённым, ошеломлённым, парализованным, вызывающим ступор, шок, тошноту или замешательство, этот эффект развеивается, а демон впадает в неконтролируемую ярость на 2 раунда. Под её действием, он начинает атакавать ближайшую цель, получает бонус боевого духа +8 к физическим характеристикам, +4 к естественной броне и бонус усиления +30 к скорости. Неконтролируемая ярость применяет демоническую ярость и аспекты. Приминения демонической ярости не тратятся."
+  },
+
+  {
+    "Key": "Settings.TailAttack",
+    "enGB": "Tail attack",
+    "ruRU": "Атака хвостом"
+  },
+
+  {
+    "Key": "Settings.TailAttacklong",
+    "enGB": "Add a tail attack to the first mythical demon level. The feat was made by the Owlcats themselves, they gave the tail to the demon, they were not given an attack. There is no attack animation.",
+    "ruRU": "Добавить атаку хвостом на первый мифический уровень демона. Черту сделали сами Совокоты, хвост демону дали, атаку им не дали. Анимации атаки нет."
+  }
+]

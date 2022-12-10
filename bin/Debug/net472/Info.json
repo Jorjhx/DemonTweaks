@@ -1,0 +1,11 @@
+{
+  "Id": "DemonFix",
+  "DisplayName": "DemonFix",
+  "Author": "какойто хуй",
+  "Version": "0.1",
+  "ManagerVersion": "0.21.3",
+  "Requirements": [],
+  "AssemblyName": "DemonFix.dll",
+  "EntryMethod": "DemonFix.Main.Load"
+}
+
