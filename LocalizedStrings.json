@@ -111,12 +111,12 @@
   {
     "Key": "Settings.DemonSkinOff2",
     "enGB": "Disable red skin",
-    "ruRU": "Отключить 'чешую' и фиолетовые глаза"
+    "ruRU": "Отключить 'чешую', фиолетовые глаза и крылья"
   },
   {
     "Key": "Settings.DemonSkinOffLong2",
     "enGB": "Disables red demon skin. The tail, horns, purple eyes and 'scales' will remain.",
-    "ruRU": "Отключает чешую и фиолетовые глаза."
+    "ruRU": "Отключает чешую, фиолетовые глаза и крылья."
   },
   {
     "Key": "Settings.DemonTail",
@@ -126,7 +126,7 @@
   {
     "Key": "Settings.DemonTailLong",
     "enGB": "Disables tail.",
-    "ruRU": "Отключает хвост."
+    "ruRU": "Отключает большой демонский хвост."
   },
   {
     "Key": "Settings.Icons",

@@ -81,7 +81,7 @@ namespace DemonFix
             ModMenu.ModMenu.AddSettings(
               SettingsBuilder
                     .New(GetKey("title"), LocalizationTool.GetString(title))
-                    .AddImage(AssetLoader.LoadInternal("Settings", "boatboatboat.png", 1200, 215), 215)
+                    .AddImage(AssetLoader.LoadInternal("Settings", "demonsettings.png", 1200, 215), 215)
                     //ВИЗУАЛ
                     .AddSubHeader(LocalizationTool.GetString(visual), startExpanded: false)
                     .AddToggle(Toggle.New(GetKey("demonskin"), defaultValue: false, LocalizationTool.GetString(demonskin))

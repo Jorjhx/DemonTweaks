@@ -5,6 +5,9 @@ using Kingmaker.Blueprints;
 using Kingmaker.Blueprints.Classes;
 using Kingmaker.Blueprints.JsonSystem;
 using Kingmaker.ResourceLinks;
+using Kingmaker.UnitLogic.Abilities.Blueprints;
+using Kingmaker.UnitLogic.ActivatableAbilities;
+using Kingmaker.UnitLogic.Buffs.Blueprints;
 using Kingmaker.Utility;
 using Kingmaker.Visual.CharacterSystem;
 using System;
@@ -25,6 +28,7 @@ namespace DemonFix.Patch
         {
             if (Initialized) return;
             Initialized = true;
+            DisableSkin123();
             DisableSkin();  //порядок важен
             DisableSkin2();
             DisableTail();
@@ -95,6 +99,20 @@ namespace DemonFix.Patch
             BlueprintClassAdditionalVisualSettings.ColorRamp[] colorRamps = visAngel.ColorRamps;
             vis1.ColorRamps = colorRamps;
             vis2.ColorRamps = colorRamps;
+            Logger.Info("Побледнел");
+        }
+
+        public static void DisableSkin123()
+        {
+            //if (!Main.Settings.DemonSkin)
+            //{
+            //    Logger.Info("Покраснел");
+            //    return;
+            //}
+            var wingsBuff = BlueprintTool.Get<BlueprintBuff>("3c958be25ab34dc448569331488bee27");
+            var wingsAbility = BlueprintTool.Get<BlueprintActivatableAbility>("3c5c902ec6397094184195419a231ee6");
+            wingsBuff.ResourceAssetIds[0] = null;
+            wingsAbility.ResourceAssetIds[0] = null;
             Logger.Info("Побледнел");
         }
     }
