@@ -66,14 +66,14 @@ namespace DemonFix
           }
           Initialized = true;
 
-          Logger.Info("Configuring blueprints.");
-                    
+          Logger.Info("Configuring blueprints."); 
                     MyFeat.Configure();
                     ExtraMajorAspect.AddExtraMajorAspect();
                     DemonForcedRage.DemonForcedRageAbility();
                     DemonForcedRage.DemonForcedRageFeature();
                     ExtraArcanePoolFix.Fix();
                     DemonPolymorph.PatchGalluPolymorph();
+                    DeskariAspectPatch.Configure();
                     NocticulaMusicFight.Configure();
                     NoCampingInDungeon.NoRest();
                     CorruptionPoison.ClearCorruptionAbility();

@@ -119,6 +119,16 @@
     "ruRU": "Отключает чешую, фиолетовые глаза и крылья."
   },
   {
+    "Key": "Settings.DemonWings",
+    "enGB": "Disable demon tail",
+    "ruRU": "Отключить 'стакающиеся' крылья демона"
+  },
+  {
+    "Key": "Settings.DemonWingsLong",
+    "enGB": "Disables tail.",
+    "ruRU": "Отключает модельку крыльев от черты, оставляя крылья от финального облика демона."
+  },
+  {
     "Key": "Settings.DemonTail",
     "enGB": "Disable demon tail",
     "ruRU": "Отключить хвост"

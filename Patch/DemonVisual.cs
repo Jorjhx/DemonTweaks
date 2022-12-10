@@ -4,11 +4,15 @@ using HarmonyLib;
 using Kingmaker.Blueprints;
 using Kingmaker.Blueprints.Classes;
 using Kingmaker.Blueprints.JsonSystem;
+using Kingmaker.EntitySystem.Entities;
 using Kingmaker.ResourceLinks;
+using Kingmaker.UI.Common;
+using Kingmaker.UnitLogic;
 using Kingmaker.UnitLogic.Abilities.Blueprints;
 using Kingmaker.UnitLogic.ActivatableAbilities;
 using Kingmaker.UnitLogic.Buffs.Blueprints;
 using Kingmaker.Utility;
+using Kingmaker.View;
 using Kingmaker.Visual.CharacterSystem;
 using System;
 using System.Linq;
@@ -28,7 +32,6 @@ namespace DemonFix.Patch
         {
             if (Initialized) return;
             Initialized = true;
-            DisableSkin123();
             DisableSkin();  //порядок важен
             DisableSkin2();
             DisableTail();
@@ -69,6 +72,7 @@ namespace DemonFix.Patch
                 Logger.Info("Охвостился");
                 return;
             }
+
             var ee_skin = BlueprintTool.Get<KingmakerEquipmentEntity>("c4f9908c5af344ea83641167d81cc029");
             var ee_skin2 = BlueprintTool.Get<KingmakerEquipmentEntity>("8898c707da5343aa9ee546d7fdac640b");
             var lenght = ee_skin.m_RaceDependentArrays.Length;
@@ -101,19 +105,32 @@ namespace DemonFix.Patch
             vis2.ColorRamps = colorRamps;
             Logger.Info("Побледнел");
         }
-
-        public static void DisableSkin123()
-        {
-            //if (!Main.Settings.DemonSkin)
-            //{
-            //    Logger.Info("Покраснел");
-            //    return;
-            //}
-            var wingsBuff = BlueprintTool.Get<BlueprintBuff>("3c958be25ab34dc448569331488bee27");
-            var wingsAbility = BlueprintTool.Get<BlueprintActivatableAbility>("3c5c902ec6397094184195419a231ee6");
-            wingsBuff.ResourceAssetIds[0] = null;
-            wingsAbility.ResourceAssetIds[0] = null;
-            Logger.Info("Побледнел");
-        }
     }
+    //[HarmonyLib.HarmonyPatch(typeof(UnitEntityData), nameof(UnitEntityData.OnViewDidAttach))]
+    //public static class UnitEntityData_CreateView_Patch
+    //{
+    //    public static void Prefix(UnitEntityData __instance)
+    //    {
+    //        try
+    //        {
+    //            if (!Main.Settings.DemonWings)
+    //            {
+    //                //Logger.Info("Покраснел");
+    //                return;
+    //            }
+    //            if (__instance.View?.CharacterAvatar != null && __instance.IsPlayerFaction &&
+    //                Kingmaker.Game.Instance.Player.AllCharacters.Contains(__instance))
+    //            {
+    //                var link = ResourcesLibrary.TryGetResource<EquipmentEntity>("23b3eed8f78e69c40a2c6d416cac2f9e");
+    //                link.OutfitParts.Clear();
+    //                __instance.View?.CharacterAvatar.RemoveEquipmentEntity(link);
+    //            }
+    //        }
+    //        catch (Exception e)
+    //        {
+    //            //Logger.Error(e.ToString());
+    //        }
+    //    }
+    //}
+
 }

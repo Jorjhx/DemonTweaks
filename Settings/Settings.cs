@@ -27,6 +27,8 @@ namespace DemonFix
 
         private static readonly string demonskin = "Settings.DemonSkinOff";
         private static readonly string demonskinlong = "Settings.DemonSkinOffLong";
+        private static readonly string demonwings = "Settings.DemonWings";
+        private static readonly string demonwingslong = "Settings.DemonWingsLong";
         private static readonly string demonskin2 = "Settings.DemonSkinOff2";
         private static readonly string demonskinlong2 = "Settings.DemonSkinOffLong2";
         private static readonly string demontail = "Settings.DemonTail";
@@ -59,6 +61,7 @@ namespace DemonFix
         #region Bools
         public bool Test => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("test"));
         public bool DemonSkin => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("demonskin"));
+        public bool DemonWings => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("demonwings"));
         public bool DemonSkin2 => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("demonskin2"));
         public bool DemonTail => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("demontail"));
         public bool Icons => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("icons"));
@@ -86,6 +89,8 @@ namespace DemonFix
                     .AddSubHeader(LocalizationTool.GetString(visual), startExpanded: false)
                     .AddToggle(Toggle.New(GetKey("demonskin"), defaultValue: false, LocalizationTool.GetString(demonskin))
                     .WithLongDescription(LocalizationTool.GetString(demonskinlong)))
+                    //.AddToggle(Toggle.New(GetKey("demonwings"), defaultValue: false, LocalizationTool.GetString(demonwings))
+                    //.WithLongDescription(LocalizationTool.GetString(demonwingslong)))
                     .AddToggle(Toggle.New(GetKey("demonskin2"), defaultValue: false, LocalizationTool.GetString(demonskin2))
                     .WithLongDescription(LocalizationTool.GetString(demonskinlong2)))
                     .AddToggle(Toggle.New(GetKey("demontail"), defaultValue: false, LocalizationTool.GetString(demontail))
