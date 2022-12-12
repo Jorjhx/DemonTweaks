@@ -31,11 +31,14 @@ namespace DemonFix.Feats
 
             extraMajorAspect.m_Description = Helpers.CreateString(extraMajorAspect + ".Description", ExtraMajorAspectDescription);
 
-            extraMajorAspect.RemoveComponents<IncreaseActivatableAbilityGroupSize>();
-            extraMajorAspect.AddComponent<IncreaseActivatableAbilityGroupSize>(c =>
+            extraMajorAspect.EditComponent<IncreaseActivatableAbilityGroupSize>(c =>
             {
                 c.Group = ActivatableAbilityGroup.DemonMajorAspect;
             });
+            //extraMajorAspect.AddComponent<IncreaseActivatableAbilityGroupSize>(c =>
+            //{
+            //    c.Group = ActivatableAbilityGroup.DemonMajorAspect;
+            //});
 
             Helpers.AddBlueprint(extraMajorAspect, extraMajorAspectGuid);
 

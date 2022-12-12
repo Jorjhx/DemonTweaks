@@ -107,6 +107,7 @@ namespace DemonFix.Utils
             textToLocalizedString[value] = localized;
             return localized;
         }
+
         public static void SetFeatures(this BlueprintFeatureSelection selection, params BlueprintFeature[] features)
         {
             selection.m_AllFeatures = selection.m_Features = features.Select(bp => bp.ToReference<BlueprintFeatureReference>()).ToArray();

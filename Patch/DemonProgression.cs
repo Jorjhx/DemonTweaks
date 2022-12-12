@@ -26,7 +26,9 @@ namespace DemonFix.DemonProgression
                 PatchDemonAspects();
                 AddForcedRage();
                 AddTeleport();
-                AddAspects();
+                AddMinor();
+                AddMajor();
+                AddLord();
                 AddHvost();
             }
 
@@ -46,20 +48,36 @@ namespace DemonFix.DemonProgression
                 demonProgression.LevelEntries[4].m_Features.Add(demonForcedRageFeature);
                 Logger.Info("Пропатчена неудержимая ярость");
             }
-            public static void AddAspects()
+            public static void AddMinor()
             {
-                if (!Main.Settings.MoreAspects)
+                if (!Main.Settings.AddMinor)
+                {
+                    return;
+                }
+                var demonAspectFeature = BlueprintTool.Get<BlueprintFeatureSelection>("bbfc0d06955db514ba23337c7bf2cca6").ToReference<BlueprintFeatureBaseReference>();
+                demonProgression.LevelEntries[1].m_Features.Add(demonAspectFeature);
+                Logger.Info("Добавлены аспекты");
+            }
+            public static void AddMajor()
+            {
+                if (!Main.Settings.AddMajor)
                 {
                     return;
                 }
                 var extraMajorAspectFeature = BlueprintTool.Get<BlueprintFeature>("d93b74fc08aa42c5be88e21e0abcc379").ToReference<BlueprintFeatureBaseReference>();
-                var demonAspectFeature = BlueprintTool.Get<BlueprintFeatureSelection>("bbfc0d06955db514ba23337c7bf2cca6").ToReference<BlueprintFeatureBaseReference>();
-                var demonLordAspectFeature = BlueprintTool.Get<BlueprintFeatureSelection>("fc93daa527ec58c40afbe874c157bc91").ToReference<BlueprintFeatureBaseReference>();
                 var demonMajorAspectFeature = BlueprintTool.Get<BlueprintFeatureSelection>("5eba1d83a078bdd49a0adc79279e1ffe").ToReference<BlueprintFeatureBaseReference>();
-                demonProgression.LevelEntries[1].m_Features.Add(demonAspectFeature);
                 demonProgression.LevelEntries[4].m_Features.Add(extraMajorAspectFeature);
-                demonProgression.LevelEntries[6].m_Features.Add(demonLordAspectFeature);
                 demonProgression.LevelEntries[6].m_Features.Add(demonMajorAspectFeature);
+                Logger.Info("Добавлены аспекты");
+            }
+            public static void AddLord()
+            {
+                if (!Main.Settings.AddLord)
+                {
+                    return;
+                }
+                var demonLordAspectFeature = BlueprintTool.Get<BlueprintFeatureSelection>("fc93daa527ec58c40afbe874c157bc91").ToReference<BlueprintFeatureBaseReference>();
+                demonProgression.LevelEntries[6].m_Features.Add(demonLordAspectFeature);
                 Logger.Info("Добавлены аспекты");
             }
             public static void AddTeleport()

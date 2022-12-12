@@ -1,21 +1,12 @@
 ﻿using BlueprintCore.Utils;
-using DemonFix.Utils;
 using HarmonyLib;
 using Kingmaker.Blueprints;
 using Kingmaker.Blueprints.Classes;
 using Kingmaker.Blueprints.JsonSystem;
 using Kingmaker.EntitySystem.Entities;
-using Kingmaker.ResourceLinks;
-using Kingmaker.UI.Common;
-using Kingmaker.UnitLogic;
-using Kingmaker.UnitLogic.Abilities.Blueprints;
-using Kingmaker.UnitLogic.ActivatableAbilities;
-using Kingmaker.UnitLogic.Buffs.Blueprints;
 using Kingmaker.Utility;
-using Kingmaker.View;
 using Kingmaker.Visual.CharacterSystem;
 using System;
-using System.Linq;
 
 namespace DemonFix.Patch
 {
@@ -113,11 +104,11 @@ namespace DemonFix.Patch
     //    {
     //        try
     //        {
-    //            if (!Main.Settings.DemonWings)
-    //            {
-    //                //Logger.Info("Покраснел");
-    //                return;
-    //            }
+    //            //if (!Main.Settings.DemonWings)
+    //            //{
+    //            //    //Logger.Info("Покраснел");
+    //            //    return;
+    //            //}
     //            if (__instance.View?.CharacterAvatar != null && __instance.IsPlayerFaction &&
     //                Kingmaker.Game.Instance.Player.AllCharacters.Contains(__instance))
     //            {

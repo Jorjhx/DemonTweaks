@@ -24,7 +24,6 @@ namespace DemonFix.Patch
         }
     }
 
-
     [TypeId("ee02b85ccda74844d9b393b1cd3bef9c")]
     public class DeskariAspectFix : UnitFactComponentDelegate, IInitiatorRulebookHandler<RulePrepareDamage>, IRulebookHandler<RulePrepareDamage>, ISubscriber, IInitiatorRulebookSubscriber
     {
@@ -52,7 +51,7 @@ namespace DemonFix.Patch
             }
         }
 
-    public void OnEventDidTrigger(RulePrepareDamage evt)
+        public void OnEventDidTrigger(RulePrepareDamage evt)
         {
         }
     }

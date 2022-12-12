@@ -1,16 +1,7 @@
 ﻿using BlueprintCore.Utils;
-using DemonFix.Spells;
 using DemonFix.Utils;
-using Kingmaker.Blueprints;
 using Kingmaker.Localization;
-using Kingmaker.RuleSystem.Rules.Damage;
-using Kingmaker.UI.MVVM._PCView.Settings.Entities.Difficulty;
-using Kingmaker.UI.MVVM._VM.Teleport;
-using Kingmaker.UI.SettingsUI;
 using ModMenu.Settings;
-using System;
-using System.Collections.Generic;
-using UnityEngine;
 
 namespace DemonFix
 {
@@ -24,6 +15,7 @@ namespace DemonFix
         private static readonly string visual = "Settings.Visual";
         private static readonly string mechanics = "Settings.Mechanics";
         private static readonly string fun = "Settings.Fun";
+        private static readonly string reload = "Settings.NeedReload";
 
         private static readonly string demonskin = "Settings.DemonSkinOff";
         private static readonly string demonskinlong = "Settings.DemonSkinOffLong";
@@ -40,7 +32,9 @@ namespace DemonFix
         private static readonly string demonrage = "Settings.DemonRage";
         private static readonly string demonragelimitless = "Settings.DemonRageLimit";
         private static readonly string teleport = "Settings.Teleport";
-        private static readonly string moreaspects = "Settings.MoreAspects";
+        private static readonly string addminor = "Settings.AddMinor";
+        private static readonly string addmajor = "Settings.AddMajor";
+        private static readonly string addlord = "Settings.AddLord";
         private static readonly string galluaspect = "Settings.GalluAspect";
         private static readonly string forcedrage = "Settings.ForcedRage";
 
@@ -49,13 +43,18 @@ namespace DemonFix
         private static readonly string demonragelong = "Settings.DemonRageDesc";
         private static readonly string demonragelimitlesslong = "Settings.DemonRageLimitDesc";
         private static readonly string teleportlong = "Settings.TeleportDesc";
-        private static readonly string moreaspectslong = "Settings.MoreAspectsDesc";
+        private static readonly string addminorlong = "Settings.AddMinorLong";
+        private static readonly string addmajorlong = "Settings.AddMajorLong";
+        private static readonly string addlordlong = "Settings.AddLordLong";
         private static readonly string galluaspectlong = "AspectOfGallu.Description";
         private static readonly string forcedragelong = "Settings.ForcedRageDesc";
 
 
         private static readonly string tailattack = "Settings.TailAttack";
         private static readonly string tailattacklong = "Settings.TailAttacklong";
+
+
+
         #endregion
 
         #region Bools
@@ -70,7 +69,9 @@ namespace DemonFix
         public bool DemonRage => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("demonrage"));
         public bool DemonRageLimitless => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("demonragelimitless"));
         public bool Teleport => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("teleport"));
-        public bool MoreAspects => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("moreaspects"));
+        public bool AddMinor => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("addminor"));
+        public bool AddMajor => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("addmajor"));
+        public bool AddLord => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("addlord"));
 
         public bool GalluAspect => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("galluaspect"));
         public bool ForcedRage => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("forcedrage"));
@@ -109,8 +110,12 @@ namespace DemonFix
                     .WithLongDescription(LocalizationTool.GetString(forcedragelong)))
                     .AddToggle(Toggle.New(GetKey("teleport"), defaultValue: false, LocalizationTool.GetString(teleport))
                     .WithLongDescription(LocalizationTool.GetString(teleportlong)))
-                    .AddToggle(Toggle.New(GetKey("moreaspects"), defaultValue: false, LocalizationTool.GetString(moreaspects))
-                    .WithLongDescription(LocalizationTool.GetString(moreaspectslong)))
+                    .AddToggle(Toggle.New(GetKey("addminor"), defaultValue: false, LocalizationTool.GetString(addminor))
+                    .WithLongDescription(LocalizationTool.GetString(addminorlong)))
+                    .AddToggle(Toggle.New(GetKey("addmajor"), defaultValue: false, LocalizationTool.GetString(addmajor))
+                    .WithLongDescription(LocalizationTool.GetString(addmajorlong)))
+                    .AddToggle(Toggle.New(GetKey("addlord"), defaultValue: false, LocalizationTool.GetString(addlord))
+                    .WithLongDescription(LocalizationTool.GetString(addlordlong)))
                     .AddToggle(Toggle.New(GetKey("galluaspect"), defaultValue: false, LocalizationTool.GetString(galluaspect))
                     .WithLongDescription(LocalizationTool.GetString(galluaspectlong)))
                     //ФАН

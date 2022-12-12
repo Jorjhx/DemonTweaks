@@ -1,13 +1,10 @@
-﻿using Kingmaker.Blueprints.Classes.Spells;
-using Kingmaker.Blueprints.JsonSystem;
+﻿using Kingmaker.Blueprints.JsonSystem;
 using Kingmaker.PubSubSystem;
 using Kingmaker.RuleSystem;
 using Kingmaker.RuleSystem.Rules.Damage;
 using Kingmaker.UnitLogic;
 using Kingmaker.UnitLogic.Mechanics;
-using Kingmaker.Utility;
-using System;
-//спизженно у PATH_OF_THE_RAGE
+//From PATH_OF_THE_RAGE
 namespace DemonFix.Patch
 {
     [TypeId("a584568f53d2454a97a48123d6f7d78f")]

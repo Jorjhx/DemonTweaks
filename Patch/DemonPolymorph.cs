@@ -1,24 +1,10 @@
 ﻿using BlueprintCore.Utils;
-using Kingmaker.UnitLogic.Buffs.Blueprints;
-using Kingmaker.UnitLogic.Buffs;
-using Kingmaker.Blueprints;
-using HarmonyLib;
-using Kingmaker.Blueprints.JsonSystem;
-using Kingmaker.UnitLogic.ActivatableAbilities;
-using Kingmaker.Designers.Mechanics.Facts;
-using Kingmaker.UnitLogic.FactLogic;
-using Kingmaker.Blueprints.Classes;
 using DemonFix.Utils;
-using Kingmaker.UnitLogic.Mechanics.Components;
-using Kingmaker.Enums;
+using Kingmaker.Blueprints;
+using Kingmaker.Blueprints.Classes;
 using Kingmaker.UnitLogic.Abilities.Blueprints;
-using Kingmaker.UnitLogic.Abilities.Components;
-using Kingmaker.ElementsSystem;
-using System;
-using Kingmaker.UnitLogic.Mechanics.Actions;
-using Kingmaker.UnitLogic.Mechanics;
-using Kingmaker.UnitLogic.Abilities.Components.CasterCheckers;
-using Kingmaker.UnitLogic.Mechanics.Properties;
+using Kingmaker.UnitLogic.Buffs;
+using Kingmaker.UnitLogic.Buffs.Blueprints;
 
 namespace DemonFix.Patch
 {
