@@ -71,7 +71,6 @@ namespace DemonFix
                     ExtraMajorAspect.AddExtraMajorAspect();
                     ExtraArcanePoolFix.Fix();
                     DemonPolymorph.PatchGalluPolymorph();
-                    DeskariAspectPatch.Configure();
                     NocticulaMusicFight.Configure();
                     NoCampingInDungeon.NoRest();
                     CorruptionPoison.ClearCorruptionAbility();

@@ -110,22 +110,22 @@
   {
     "Key": "Settings.DemonSkinOff2",
     "enGB": "Disable red skin",
-    "ruRU": "Отключить 'чешую', фиолетовые глаза и крылья"
+    "ruRU": "Отключить 'чешую' и фиолетовые глаза"
   },
   {
     "Key": "Settings.DemonSkinOffLong2",
     "enGB": "Disables red demon skin. The tail, horns, purple eyes and 'scales' will remain.",
-    "ruRU": "Отключает чешую, фиолетовые глаза и крылья.\nИзменение всех настроек требует перезагрузки игры!"
+    "ruRU": "Отключает чешую и фиолетовые глаза.\nИзменение всех настроек требует перезагрузки игры!"
   },
   {
     "Key": "Settings.DemonWings",
     "enGB": "Disable demon tail",
-    "ruRU": "Отключить 'стакающиеся' крылья демона.\nИзменение всех настроек требует перезагрузки игры!"
+    "ruRU": "Отключить 'стакающиеся' крылья демона"
   },
   {
     "Key": "Settings.DemonWingsLong",
     "enGB": "Disables tail.",
-    "ruRU": "Отключает модельку крыльев от черты, оставляя крылья от финального облика демона.\nИзменение всех настроек требует перезагрузки игры!"
+    "ruRU": "Фиксит баг с двойными крыльями демона.\nИзменение всех настроек требует перезагрузки игры!"
   },
   {
     "Key": "Settings.DemonTail",
@@ -182,7 +182,16 @@
     "enGB": "Abbysal Storm will not damage the demon.",
     "ruRU": "Демоническая буря не будет наносить урона демону.\nИзменение всех настроек требует перезагрузки игры!"
   },
-
+  {
+    "Key": "Settings.Deskari",
+    "enGB": "Abbysal Storm patch",
+    "ruRU": "Патч Аспекта Дескари"
+  },
+  {
+    "Key": "Settings.DeskariLong",
+    "enGB": "Abbysal Storm will not damage the demon.",
+    "ruRU": "Чинит аспект Дескари, чтобы он игнорировал иммунитеты к физическому урону.\nИзменение всех настроек требует перезагрузки игры!"
+  },
   {
     "Key": "Settings.Teleport",
     "enGB": "Add true Demon teleport",

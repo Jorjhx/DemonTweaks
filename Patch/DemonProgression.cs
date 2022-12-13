@@ -23,7 +23,7 @@ namespace DemonFix.DemonProgression
                 Initialized = true;
                 demonProgression = BlueprintTool.Get<BlueprintProgression>("285fe49f7df8587468f676aa49362213");
                 Logger.Info("Патчи прогрессии");
-                PatchDemonAspects();
+                PatchForcedRage();
                 AddForcedRage();
                 AddTeleport();
                 AddMinor();
@@ -32,7 +32,7 @@ namespace DemonFix.DemonProgression
                 AddHvost();
             }
 
-            public static void PatchDemonAspects()
+            public static void PatchForcedRage()
             {
                 var demonForcedRageFeature = BlueprintTool.Get<BlueprintFeature>("2a5d1de842d4c514495a195a808b14c9").ToReference<BlueprintFeatureBaseReference>();
                 demonProgression.LevelEntries[5].m_Features.Remove(demonForcedRageFeature);

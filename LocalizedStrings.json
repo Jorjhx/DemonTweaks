@@ -84,8 +84,8 @@
   },
   {
     "Key": "Settings.Mechanics",
-    "enGB": "Mechanics",
-    "ruRU": "Механика"
+    "enGB": "Patchs",
+    "ruRU": "Патчи"
   },
   {
     "Key": "Settings.Fun",
@@ -110,22 +110,22 @@
   {
     "Key": "Settings.DemonSkinOff2",
     "enGB": "Disable red skin",
-    "ruRU": "Отключить 'чешую', фиолетовые глаза и крылья"
+    "ruRU": "Отключить 'чешую' и фиолетовые глаза"
   },
   {
     "Key": "Settings.DemonSkinOffLong2",
     "enGB": "Disables red demon skin. The tail, horns, purple eyes and 'scales' will remain.",
-    "ruRU": "Отключает чешую, фиолетовые глаза и крылья.\nИзменение всех настроек требует перезагрузки игры!"
+    "ruRU": "Отключает чешую и фиолетовые глаза.\nИзменение всех настроек требует перезагрузки игры!"
   },
   {
     "Key": "Settings.DemonWings",
     "enGB": "Disable demon tail",
-    "ruRU": "Отключить 'стакающиеся' крылья демона.\nИзменение всех настроек требует перезагрузки игры!"
+    "ruRU": "Отключить 'стакающиеся' крылья демона"
   },
   {
     "Key": "Settings.DemonWingsLong",
     "enGB": "Disables tail.",
-    "ruRU": "Отключает модельку крыльев от черты, оставляя крылья от финального облика демона.\nИзменение всех настроек требует перезагрузки игры!"
+    "ruRU": "Фиксит баг с двойными крыльями демона.\nИзменение всех настроек требует перезагрузки игры!"
   },
   {
     "Key": "Settings.DemonTail",
@@ -135,7 +135,7 @@
   {
     "Key": "Settings.DemonTailLong",
     "enGB": "Disables tail.",
-    "ruRU": "Отключает большой демонский хвост.\nИзменение всех настроек требует перезагрузки игры!"
+    "ruRU": "Отключает большой демонический хвост.\nИзменение всех настроек требует перезагрузки игры!"
   },
   {
     "Key": "Settings.Icons",
@@ -182,7 +182,16 @@
     "enGB": "Abbysal Storm will not damage the demon.",
     "ruRU": "Демоническая буря не будет наносить урона демону.\nИзменение всех настроек требует перезагрузки игры!"
   },
-
+  {
+    "Key": "Settings.Deskari",
+    "enGB": "Abbysal Storm patch",
+    "ruRU": "Патч Аспекта Дескари"
+  },
+  {
+    "Key": "Settings.DeskariLong",
+    "enGB": "Abbysal Storm will not damage the demon.",
+    "ruRU": "Чинит аспект Дескари, чтобы он игнорировал иммунитеты к физическому урону.\nИзменение всех настроек требует перезагрузки игры!"
+  },
   {
     "Key": "Settings.Teleport",
     "enGB": "Add true Demon teleport",
@@ -191,7 +200,7 @@
   {
     "Key": "Settings.TeleportDesc",
     "enGB": "Removes the teleport from the demon spellbook and adds a normal demonic teleporter to mythic level 6.\nAs a {g|Encyclopedia:Swift_Action}swift action{/g}, you teleport to any point up to long distance.",
-    "ruRU": "Удаляет телепорт-огрызок 4 круга из книги заклинаний демона и добавляет нормальный демонический телепорт на 6 мифический уровень.\nСовершив {g|Encyclopedia:Swift_Action}быстрое действие{/g} вы можете телепортироваться в любую точку вплоть до большого расстояния.\nИзменение всех настроек требует перезагрузки игры!"
+    "ruRU": "Удаляет телепорт-огрызок 4 круга из книги заклинаний демона и добавляет нормальный демонический телепорт на 6 мифический уровень.\n\nСовершив {g|Encyclopedia:Swift_Action}быстрое действие{/g} вы можете телепортироваться в любую точку вплоть до большого расстояния.\n\nИзменение всех настроек требует перезагрузки игры!"
   },
   {
     "Key": "Settings.AddMinor",
@@ -241,6 +250,6 @@
   {
     "Key": "Settings.TailAttacklong",
     "enGB": "Add a tail attack to the first mythical demon level. The feat was made by the Owlcats themselves, they gave the tail to the demon, they were not given an attack. There is no attack animation.",
-    "ruRU": "Добавить атаку хвостом на первый мифический уровень демона. Черту сделали сами Совокоты, хвост Демону дали, атаку им не дали. Анимации атаки нет.\nИзменение всех настроек требует перезагрузки игры!"
+    "ruRU": "Добавляет атаку хвостом на первый мифический уровень демона. Черту сделали сами Совокоты, хвост Демону дали, атаку им не дали. Анимации атаки нет.\nИзменение всех настроек требует перезагрузки игры!"
   }
 ]
