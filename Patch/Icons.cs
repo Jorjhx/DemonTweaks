@@ -173,13 +173,13 @@ namespace DemonFix.Patch
                 areshkagalAspectBuff.m_Icon = areshkagalAspectIcon;
                 deskariAspectBuff.m_Icon = deskariAspectIcon;
                 ///
-                var demonWingsIcon = AssetLoader.LoadInternal("Abilities", "DemonWings.png");
-                var demonWingsFeature = BlueprintTool.Get<BlueprintFeature>("36db25d9e0848f04da604ff9e3d931af");
-                var demonWingsAbility = BlueprintTool.Get<BlueprintActivatableAbility>("3c5c902ec6397094184195419a231ee6");
-                var demonWingsBuff = BlueprintTool.Get<BlueprintBuff>("3c958be25ab34dc448569331488bee27");
-                demonWingsFeature.m_Icon = demonWingsIcon;
-                demonWingsAbility.m_Icon = demonWingsIcon;
-                demonWingsBuff.m_Icon = demonWingsIcon;
+                //var demonWingsIcon = AssetLoader.LoadInternal("Abilities", "DemonWings.png");
+                //var demonWingsFeature = BlueprintTool.Get<BlueprintFeature>("36db25d9e0848f04da604ff9e3d931af");
+                //var demonWingsAbility = BlueprintTool.Get<BlueprintActivatableAbility>("3c5c902ec6397094184195419a231ee6");
+                //var demonWingsBuff = BlueprintTool.Get<BlueprintBuff>("3c958be25ab34dc448569331488bee27");
+                //demonWingsFeature.m_Icon = demonWingsIcon;
+                //demonWingsAbility.m_Icon = demonWingsIcon;
+                //demonWingsBuff.m_Icon = demonWingsIcon;
                 ///
                 var nocticulaAspectBuff = BlueprintTool.Get<BlueprintBuff>("ef035e3fee135504ebfe9d0d052762f8");
                 var nocticulaAspectAbility = BlueprintTool.Get<BlueprintAbility>("b968988d6c0e830458fd49efbfb86202");

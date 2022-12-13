@@ -131,11 +131,11 @@ namespace DemonFix
 
                     //Патчи
                     .AddSubHeader(LocalizationTool.GetString(mechanics), startExpanded: false)
-                    .AddToggle(Toggle.New(GetKey("demonrage"), defaultValue: false, LocalizationTool.GetString(demonrage))
+                    .AddToggle(Toggle.New(GetKey("demonrage"), defaultValue: true, LocalizationTool.GetString(demonrage))
                     .WithLongDescription(LocalizationTool.GetString(demonragelong)))
-                    .AddToggle(Toggle.New(GetKey("abbysalstorm"), defaultValue: false, LocalizationTool.GetString(abbysalstorm))
+                    .AddToggle(Toggle.New(GetKey("abbysalstorm"), defaultValue: true, LocalizationTool.GetString(abbysalstorm))
                     .WithLongDescription(LocalizationTool.GetString(abbysallong)))
-                    .AddToggle(Toggle.New(GetKey("forcedrage"), defaultValue: false, LocalizationTool.GetString(forcedrage))
+                    .AddToggle(Toggle.New(GetKey("forcedrage"), defaultValue: true, LocalizationTool.GetString(forcedrage))
                     .WithLongDescription(LocalizationTool.GetString(forcedragelong)))
                     .AddToggle(Toggle.New(GetKey("teleport"), defaultValue: true, LocalizationTool.GetString(teleport))
                     .WithLongDescription(LocalizationTool.GetString(teleportlong)))
