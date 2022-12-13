@@ -155,7 +155,7 @@
           }
         }
       },
-      "WW-Blueprint-Core/2.7.0": {
+      "WW-Blueprint-Core/2.7.1": {
         "type": "package",
         "compile": {
           "lib/net472/BlueprintCore.dll": {
@@ -412,10 +412,10 @@
         "system.runtime.interopservices.runtimeinformation.nuspec"
       ]
     },
-    "WW-Blueprint-Core/2.7.0": {
-      "sha512": "J625lFWe3biur2E2bRVMVfuOgQUhlPYResVj5cRCZ+7HEgi0umEvAbyxHiDV3bVgTyKlcLnJiqKmyZ3EASQ43Q==",
+    "WW-Blueprint-Core/2.7.1": {
+      "sha512": "q/gRv5P+U6YfQF7xVNNJ7N7VH6VxjeKm9sj0DuoSDp9XrhWr78mayj8+YaEn6SCfBiHRoq806Bqa+fM8EseinQ==",
       "type": "package",
-      "path": "ww-blueprint-core/2.7.0",
+      "path": "ww-blueprint-core/2.7.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -424,7 +424,7 @@
         "content/BlueprintCore/changes.md",
         "lib/net472/BlueprintCore.dll",
         "lib/net472/BlueprintCore.xml",
-        "ww-blueprint-core.2.7.0.nupkg.sha512",
+        "ww-blueprint-core.2.7.1.nupkg.sha512",
         "ww-blueprint-core.nuspec"
       ]
     }
@@ -434,7 +434,7 @@
       "AssemblyPublicizer >= *",
       "ILRepack.MSBuild.Task >= *",
       "ModKit >= 1.0.8",
-      "WW-Blueprint-Core >= 2.7.0"
+      "WW-Blueprint-Core >= 2.7.1"
     ]
   },
   "packageFolders": {
@@ -498,7 +498,7 @@
           },
           "WW-Blueprint-Core": {
             "target": "Package",
-            "version": "[2.7.0, )"
+            "version": "[2.7.1, )"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"

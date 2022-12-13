@@ -16,9 +16,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Items\**" />
     <Compile Remove="lib\**" />
+    <Compile Remove="Other\**" />
+    <EmbeddedResource Remove="Items\**" />
     <EmbeddedResource Remove="lib\**" />
+    <EmbeddedResource Remove="Other\**" />
+    <None Remove="Items\**" />
     <None Remove="lib\**" />
+    <None Remove="Other\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -28,7 +34,7 @@
     </PackageReference>
     <PackageReference Include="ILRepack.MSBuild.Task" Version="*" />
     <PackageReference Include="ModKit" Version="1.0.8" />
-    <PackageReference Include="WW-Blueprint-Core" Version="2.7.0" />
+    <PackageReference Include="WW-Blueprint-Core" Version="2.7.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -79,12 +85,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Feats\MyFeat.cs">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="assets">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -97,10 +97,6 @@
     <None Update="LocalizedStrings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Mechanics\" />
   </ItemGroup>
 
   <!-- Generates Assembly-CSharp_public.dll -->

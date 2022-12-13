@@ -1,5 +1,4 @@
-﻿using BlueprintCore.Blueprints.CustomConfigurators.Classes;
-using BlueprintCore.Utils;
+﻿using BlueprintCore.Utils;
 using BlueprintCore.Utils.Types;
 using DemonFix.Utils;
 using HarmonyLib;
@@ -39,7 +38,6 @@ namespace DemonFix.Patch
             private static readonly string demonForcedRageFeatureDescription = "DemonForcedRageFeature.Description";
             public static void DemonForcedRageAbility()
             {
-
                 var breakControlAbility = BlueprintTool.Get<BlueprintAbility>("a3fd9fb8383f4f349a37faf4e7644bc3");
                 var demonForcedRageAbilityGuid = new BlueprintGuid(new Guid("f47c5c07-d050-4ccd-929d-b0a746043aca"));
                 var demonForcedRageAbility = Helpers.CreateCopy(breakControlAbility, bp =>

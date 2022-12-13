@@ -1,16 +1,8 @@
 ﻿using BlueprintCore.Utils;
+using DemonFix.Utils;
 using HarmonyLib;
 using Kingmaker.Blueprints.Classes;
-using Kingmaker.Blueprints;
 using Kingmaker.Blueprints.JsonSystem;
-using Kingmaker.UnitLogic.Abilities.Blueprints;
-using Kingmaker.UnitLogic.Abilities.Components;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DemonFix.Utils;
 using Kingmaker.UnitLogic.FactLogic;
 
 namespace DemonFix.Patch

@@ -4,12 +4,8 @@ using Kingmaker.Blueprints;
 using Kingmaker.Blueprints.Classes;
 using Kingmaker.Blueprints.JsonSystem;
 using Kingmaker.EntitySystem.Entities;
-using Kingmaker.Utility;
 using Kingmaker.Visual.CharacterSystem;
 using System;
-using System.Collections.Generic;
-using System.Web.UI.WebControls;
-using static Kingmaker.Visual.CharacterSystem.EquipmentEntity;
 
 namespace DemonFix.Patch
 {
@@ -29,6 +25,18 @@ namespace DemonFix.Patch
             DisableSkin();  //порядок важен
             DisableSkin2();
             DisableTail();
+            DisableHorns();
+        }
+        public static void DisableHorns()
+        {
+            if (!Main.Settings.DemonHorns)
+            {
+                Logger.Info("Норм");
+                return;
+            }
+            var demonVis2 = BlueprintTool.Get<BlueprintClassAdditionalVisualSettings>("200266dd7e7341968944e03c8ec9e8db");
+            Array.Resize(ref demonVis2.CommonSettings.m_EquipmentEntities, demonVis2.CommonSettings.m_EquipmentEntities.Length - 1);
+            Logger.Info("Линька");
         }
         public static void DisableSkin2()
         {

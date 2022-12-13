@@ -1,8 +1,6 @@
 using BlueprintCore.Blueprints.Configurators.Root;
 using BlueprintCore.Utils;
 using DemonFix.Feats;
-using DemonFix.Other;
-using DemonFix.Items;
 using DemonFix.Patch;
 using DemonFix.Spells;
 using DemonFix.Utils;
@@ -67,14 +65,8 @@ namespace DemonFix
                     Initialized = true;
 
                     Logger.Info("Configuring blueprints.");
-                    MyFeat.Configure();
                     ExtraMajorAspect.AddExtraMajorAspect();
-                    ExtraArcanePoolFix.Fix();
                     DemonPolymorph.PatchGalluPolymorph();
-                    NocticulaMusicFight.Configure();
-                    NoCampingInDungeon.NoRest();
-                    CorruptionPoison.ClearCorruptionAbility();
-                    CorruptionPoison.Poison();
                 }
                 catch (Exception e)
                 {

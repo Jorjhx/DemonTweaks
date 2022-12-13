@@ -33,7 +33,6 @@ C:\Users\Tsar\Mod\WrathModTest\bin\Debug\net472\ModKit.dll
 C:\Users\Tsar\Mod\WrathModTest\bin\Debug\net472\UnityEngine.IMGUIModule.dll
 C:\Users\Tsar\Mod\WrathModTest\bin\Debug\net472\ModMenu.dll
 C:\Users\Tsar\Mod\WrathModTest\bin\Debug\net472\DemonFix_assets
-C:\Users\Tsar\Mod\DemonFix\bin\Debug\net472\Feats\MyFeat.cs
 C:\Users\Tsar\Mod\DemonFix\bin\Debug\net472\DemonFix_assets
 C:\Users\Tsar\Mod\DemonFix\bin\Debug\net472\Info.json
 C:\Users\Tsar\Mod\DemonFix\bin\Debug\net472\LocalizedStrings.json

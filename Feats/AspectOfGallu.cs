@@ -1,6 +1,4 @@
 ﻿using BlueprintCore.Blueprints.Configurators.UnitLogic.ActivatableAbilities;
-using BlueprintCore.Blueprints.CustomConfigurators.Classes;
-using BlueprintCore.Blueprints.CustomConfigurators.UnitLogic.Buffs;
 using BlueprintCore.Utils;
 using DemonFix.Utils;
 using HarmonyLib;
@@ -14,12 +12,11 @@ using Kingmaker.UnitLogic.ActivatableAbilities;
 using Kingmaker.UnitLogic.Buffs.Blueprints;
 using Kingmaker.UnitLogic.FactLogic;
 using System;
-using UnityEngine;
 
 namespace DemonFix.Feats
 {
     [HarmonyPatch(typeof(BlueprintsCache), "Init")]
-    static class BlueprintsCache_Init_Patch
+    static class AspectOfGallu
     {
         static bool Initialized;
         private static readonly LogWrapper Logger = LogWrapper.Get("DemonFix.AspectOfGallu");
@@ -32,7 +29,7 @@ namespace DemonFix.Feats
         static void Postfix()
         {
             if (Initialized) return;
-            Initialized = true;
+            Initialized = false;
 
             AddGalluAspect();
         }
@@ -105,7 +102,6 @@ namespace DemonFix.Feats
                 bp.name = GalluAspectName + bp.AssetGuid;
                 bp.m_Buff = galluSwitchBuff.ToReference<BlueprintBuffReference>();
             });
-
 
             galluActivatableAspectAbility.m_DisplayName = galluBuff.m_DisplayName;
             var galluActivatableAspectAbilityDescription = galluBuff.m_Description;

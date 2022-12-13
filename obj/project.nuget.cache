@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Z9wQrKdLszxsC4NZZ9JglsF6+fkRevSnPBVM8M1CYhZpFnUueu2lH9+fUKJDTWWh7PblIFBYVDVkyc76OQ+fww==",
+  "dgSpecHash": "0nqovh4ixvyneQwK/5W6G69JEZDKPzmzgyne0QlY0cbubmthTHnLj4UTviwCypyNWRU01HZjLueQJEec0G3Hww==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tsar\\Mod\\DemonFix\\DemonFix.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,7 @@
     "C:\\Users\\Tsar\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Tsar\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
     "C:\\Users\\Tsar\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0\\system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512",
-    "C:\\Users\\Tsar\\.nuget\\packages\\ww-blueprint-core\\2.7.0\\ww-blueprint-core.2.7.0.nupkg.sha512"
+    "C:\\Users\\Tsar\\.nuget\\packages\\ww-blueprint-core\\2.7.1\\ww-blueprint-core.2.7.1.nupkg.sha512"
   ],
   "logs": []
 }
