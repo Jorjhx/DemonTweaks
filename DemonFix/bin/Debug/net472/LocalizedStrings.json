@@ -1,0 +1,307 @@
+[
+  {
+    "Key": "AspectOfLilithu.Name",
+    "ProcessTemplates": false,
+    "enGB": "Aspect Of Lilithu",
+    "ruRU": "Аспект Лилиту"
+  },
+  {
+    "Key": "AspectOfLilithu.Description",
+    "enGB": "The demon takes on the aspect of Gallu, gaining an additional bite attack.\nWhile the demon remains enraged, it creates an aura of confusion around itself. {g|Encyclopedia:Flanking}The numerical advantage{/g} of enemies affected by this aura does not work.",
+    "ruRU": "Демон приобретает аспект Лилиту, {g|Encyclopedia:Bonus}получая бонус{/g} к {g|Encyclopedia:Charisma}Харизме{/g}, равный половине мифического уровня демона плюс один.\nВо время демонической ярости аспект Лилиту позволяет игнорировать эффекты, запрещающие использовать заклинания."
+  },
+  {
+    "Key": "AspectOfGallu.Name",
+    "ProcessTemplates": false,
+    "enGB": "Aspect Of Gallu",
+    "ruRU": "Аспект Галлу"
+  },
+  {
+    "Key": "AspectOfGallu.Description",
+    "enGB": "The demon takes on the aspect of Gallu, gaining an additional bite attack.\nWhile the demon remains enraged, it creates an aura of confusion around itself. {g|Encyclopedia:Flanking}The numerical advantage{/g} of enemies affected by this aura does not work.",
+    "ruRU": "Демон пробретает аспект Галлу, получая дополнительную атаку укусом.\nПока демон остается в ярости, он создаёт ауру беспорядка вокруг себя. {g|Encyclopedia:Flanking}Численное преимущество{/g} для врагов, попавших под влияние этой ауры, не работает."
+  },
+  {
+    "Key": "GalluAura.Name",
+    "ProcessTemplates": false,
+    "enGB": "Aura of confusion",
+    "ruRU": "Аура беспорядка"
+  },
+  {
+    "Key": "GalluAura.Description",
+    "enGB": "The presence of the Gallu creates havoc, saturating the battlefield with elements of chaos and entropy that hinder thoughtful coordination and tactical planning, and manipulating chance and fate itself. This aura extends in a 30-foot radius around the gallu. {g|Encyclopedia:Flanking}Numerical advantage{/g} does not work in the affected area.A creature summoned to this area by any creature other than the demon itself must make a successful {g|Encyclopedia:Saving_Throw}saving throw{/g} of {g|Encyclopedia:DC}difficulty{/g} 26 will to avoid confusion for {g| Encyclopedia:Dice}1d4{/g} {g|Encyclopedia:Combat_Round}round{/g}. Paladins and creatures of the lawful subtype must make a DC 26 Will saving throw each round when they start their turn in the aura's area to avoid nausea for 1 round.\nThe difficulty of the save is based on {g|Encyclopedia:Charisma}Charisma{/g }.",
+    "ruRU": "Присутствие галлу создает разруху, насыщая поле боя элементами хаоса и энтропии, препятствующими продуманной координации и тактическому планированию, и манипулируя самими случаем и судьбой. Эта аура распространяется на радиус 30 футов вокруг галлу. {g|Encyclopedia:Flanking}Численное преимущество{/g} в попавшей под его влияние области не работает. Существо, призванное в эту область любым существом, помимо самого демона, должно совершить успешный {g|Encyclopedia:Saving_Throw}спасбросок{/g} воли {g|Encyclopedia:DC}сложности{/g} 26, чтобы избежать замешательства на {g|Encyclopedia:Dice}1d4{/g} {g|Encyclopedia:Combat_Round}раунда{/g}. Паладины и существа законопослушного подтипа должны совершать спасбросок воли сложности 26 в каждом раунде, когда они начинают свой ход в зоне действия этой ауры, чтобы избежать тошноты в течение 1 раунда.\nСложность спасброска основана на {g|Encyclopedia:Charisma}Харизме{/g}."
+  },
+  {
+    "Key": "ExtraMajorAspect.Name",
+    "ProcessTemplates": false,
+    "enGB": "Extra major aspect",
+    "ruRU": "Дополнительный высший аспект"
+  },
+  {
+    "Key": "ExtraMajorAspect.Description",
+    "enGB": "You can now use one more major aspect simultaneously.",
+    "ruRU": "Теперь вы можете использовать на один высший аспект больше одновременно."
+  },
+  {
+    "Key": "DemonForcedRageFeature.Name",
+    "ProcessTemplates": false,
+    "enGB": "Unstoppable Rage",
+    "ruRU": "Неудержимая ярость"
+  },
+  {
+    "Key": "DemonForcedRageFeature.Description",
+    "enGB": "If a demon is under an effect that makes it frightened, disoriented, shocked, dazed, paralyzed, causing stupor, shock, nausea, or confusion, this effect is dispelled, and the demon goes into an Unstoppable rage for 2 round. Under its effect, he begins to attack the nearest target, gains a morale bonus of +8 to physical characteristics, +4 to natural armor, and a gain bonus of +30 to speed. Unstoppable Rage applies Demonic rage and aspects. Demonic Rage uses do not cost.",
+    "ruRU": "Если демон оказывается под эффектом, делающим его напуганным, дезориентированным, потрясённым, ошеломлённым, парализованным, вызывающим ступор, шок, тошноту или замешательство, этот эффект развеивается, а демон впадает в неконтролируемую ярость на 2 раунда. Под её действием, он начинает атакавать ближайшую цель, получает бонус боевого духа +8 к физическим характеристикам, +4 к естественной броне и бонус усиления +30 к скорости. Неконтролируемая ярость применяет демоническую ярость и аспекты. Приминения демонической ярости не тратятся."
+  },
+  {
+    "Key": "DemonTeleportFeature.Description",
+    "enGB": "As a {g|Encyclopedia:Swift_Action}swift action{/g}, you teleport to any point up to long distance.",
+    "ruRU": "Совершив {g|Encyclopedia:Swift_Action}быстрое действие{/g} вы можете телепортироваться в любую точку вплоть до большого расстояния."
+  },
+  {
+    "Key": "Settings.Title",
+    "enGB": "DemonFix",
+    "ruRU": "DemonFix"
+  },
+  {
+    "Key": "Settings.Visual",
+    "enGB": "Visual",
+    "ruRU": "Внешний вид"
+  },
+  {
+    "Key": "Settings.Mechanics",
+    "enGB": "Patches",
+    "ruRU": "Патчи"
+  },
+  {
+    "Key": "Settings.Fun",
+    "enGB": "Other",
+    "ruRU": "Разное"
+  },
+  {
+    "Key": "Settings.NeedReload",
+    "enGB": "\nИзменение всех настроек требует перезагрузки игры!!!",
+    "ruRU": "\nИзменение всех настроек требует перезагрузки игры!!!"
+  },
+  {
+    "Key": "Settings.DemonSkinOff",
+    "enGB": "Disable red skin",
+    "ruRU": "Отключить красную кожу"
+  },
+  {
+    "Key": "Settings.DemonSkinOffLong",
+    "enGB": "Disables red demon skin. The tail, horns, purple eyes and 'scales' will remain.\nChanging all settings requires restarting the game!",
+    "ruRU": "Отключает красную кожу демона. Хвос, рога, фиолетовые глаза и 'чешуя' останутся.\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.DemonSkinOff2",
+    "enGB": "Disable 'scales' and purple eyes",
+    "ruRU": "Отключить 'чешую' и фиолетовые глаза"
+  },
+  {
+    "Key": "Settings.DemonSkinOffLong2",
+    "enGB": "Disable 'scales' and purple eyes.\nChanging all settings requires restarting the game!",
+    "ruRU": "Отключает чешую и фиолетовые глаза.\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.DemonWings",
+    "enGB": "Disable 'stacking' demon wings",
+    "ruRU": "Отключить 'стакающиеся' крылья демона"
+  },
+  {
+    "Key": "Settings.DemonWingsLong",
+    "enGB": "Fixes a bug with double demon wings.\nChanging all settings requires restarting the game!",
+    "ruRU": "Фиксит баг с двойными крыльями демона.\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.DemonTail",
+    "enGB": "Disable demon tail",
+    "ruRU": "Отключить хвост"
+  },
+  {
+    "Key": "Settings.DemonTailLong",
+    "enGB": "Disables big demon tail.\nChanging all settings requires restarting the game!",
+    "ruRU": "Отключает большой демонический хвост.\nИзменение всех настроек требует перезагрузки игры!"
+  },
+    {
+    "Key": "Settings.DemonHorns",
+    "enGB": "Disable horns",
+    "ruRU": "Отключить рога"
+  },
+  {
+    "Key": "Settings.DemonHornsLong",
+    "enGB": "Disables big demon horns. Whyyyy???\nChanging all settings requires restarting the game!",
+    "ruRU": "Отключает большой демонические рога. Зачем???\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.Icons",
+    "enGB": "Ability icons",
+    "ruRU": "Иконки способностей"
+  },
+  {
+    "Key": "Settings.IconsDesc",
+    "enGB": "Adds unique icons for Demonic Rage and Aspects.\nChanging all settings requires restarting the game!",
+    "ruRU": "Добавляет уникальные иконки для Демонической ярости и Аспектов.\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.GalluAspect",
+    "enGB": "Aspect of Gallu",
+    "ruRU": "Аспект Галлу"
+  },
+  {
+    "Key": "Settings.LilithuAspect",
+    "enGB": "Aspect of Lilithu",
+    "ruRU": "Аспект Лилиту"
+  },
+  {
+    "Key": "Settings.DemonRage",
+    "enGB": "Patch Demon rage",
+    "ruRU": "Патч Демонической ярости"
+  },
+  {
+    "Key": "Settings.DemonRageDesc",
+    "enGB": "Uses of Demonic rage increases by 2 per mythic level.\nChanging all settings requires restarting the game!",
+    "ruRU": "Количество применений Демонической ярости увеличивается на 2 за мифический уровень.\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.DemonRageLimit",
+    "enGB": "Limitless Demon rage",
+    "ruRU": "Безграничная Демоническая ярость"
+  },
+  {
+    "Key": "Settings.DemonRageLimitDesc",
+    "enGB": "Limitless Rage now affects Demonic Rage.\nChanging all settings requires restarting the game!",
+    "ruRU": "Безграничная ярость теперь действует и на Демоническую ярость.\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.AbbysalStorm",
+    "enGB": "Patch Abbysal Storm",
+    "ruRU": "Патч Демонической бури"
+  },
+  {
+    "Key": "Settings.AbbysalStormDesc",
+    "enGB": "Abbysal Storm will not damage the Demon.\nChanging all settings requires restarting the game!",
+    "ruRU": "Демоническая буря не будет наносить урона Демону.\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.Deskari",
+    "enGB": "Patch Aspect of Deskari",
+    "ruRU": "Патч аспекта Дескари"
+  },
+  {
+    "Key": "Settings.DeskariLong",
+    "enGB": "Fixes Aspect of Deckari to ignore physical damage immunities.\nChanging all settings requires restarting the game!",
+    "ruRU": "Аспект Дескари теперь игнорирует иммунитеты к физическому урону.\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.Balor",
+    "enGB": "Patch Aspect of Balor",
+    "ruRU": "Патч аспекта Балора"
+  },
+  {
+    "Key": "Settings.BalorLong",
+    "enGB": "Aspect of Balor no longer grants a bonus to Intelligence while in a demonic rage.\nChanging all settings requires restarting the game!",
+    "ruRU": "Аспект Балора больше не даёт бонус к Интеллекту в состоянии демонической ярости.\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.ShadowDemon",
+    "enGB": "Patch Aspect of Shadow Demon",
+    "ruRU": "Патч аспекта Теневого демона"
+  },
+  {
+    "Key": "Settings.ShadowDemonLong",
+    "enGB": "Aspect of the Shadow Demon no longer grants double the Wisdom bonus.\nChanging all settings requires restarting the game!",
+    "ruRU": "Аспект Теневого демона больше не даёт двойной бонус к Мудрости.\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.Succuba",
+    "enGB": "Patch Aspect of Succubus",
+    "ruRU": "Патч аспекта Суккубы"
+  },
+  {
+    "Key": "Settings.SuccubaLong",
+    "enGB": "Aspect of the Succubus gives the correct attack penalty to enemies.\nChanging all settings requires restarting the game!",
+    "ruRU": "Аспект Суккубы даёт корректный штраф к атаке противников.\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.Brimorak",
+    "enGB": "Patch Aspect of Brimorak",
+    "ruRU": "Патч аспекта Бриморака"
+  },
+  {
+    "Key": "Settings.BrimorakLong",
+    "enGB": "Aspect of Brimorak uses a new component to fix its expected scaling.\nChanging all settings requires restarting the game!",
+    "ruRU": "Аспект Бриморака даёт корректный бонус к урону заклинаний.\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.Kalavakus",
+    "enGB": "Patch Aspect of Kalavakus",
+    "ruRU": "Патч аспекта Калавакуса"
+  },
+  {
+    "Key": "Settings.KalavakusLong",
+    "enGB": "Kalvakus Aspect's bonus attack will only work while you have a melee weapon.\nChanging all settings requires restarting the game!",
+    "ruRU": "Бонусная атака будет работать, только если у вас есть оружие ближнего боя.\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.Teleport",
+    "enGB": "Patch Demon teleport",
+    "ruRU": "Патч Демонической телепортации"
+  },
+  {
+    "Key": "Settings.TeleportDesc",
+    "enGB": "Removes the teleport from the demon spellbook and adds a normal demonic teleporter to mythic level 6.\nAs a {g|Encyclopedia:Swift_Action}swift action{/g}, you teleport to any point up to long distance.\n\nChanging all settings requires restarting the game!",
+    "ruRU": "Удаляет телепорт-огрызок 4 круга из книги заклинаний демона и добавляет нормальный демонический телепорт на 6 мифический уровень.\n\nСовершив {g|Encyclopedia:Swift_Action}быстрое действие{/g} вы можете телепортироваться в любую точку вплоть до большого расстояния.\n\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.AddMinor",
+    "enGB": "Add minor aspect",
+    "ruRU": "Дополнительный малый аспект"
+  },
+  {
+    "Key": "Settings.AddMinorLong",
+    "enGB": "Adds one minor aspect at the 4 mythic level.\nChanging all settings requires restarting the game!",
+    "ruRU": "Добавляет ещё один малый аспект на 4 мифический уровнь.\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.AddMajor",
+    "enGB": "Add major aspect",
+    "ruRU": "Дополнительный высший аспект"
+  },
+  {
+    "Key": "Settings.AddMajorLong",
+    "enGB": "Adds one major aspect at the 9 mythic level. At mythic level 7, two major aspects can be used at the same time.\nChanging all settings requires restarting the game!",
+    "ruRU": "Добавляет ещё один высший аспект на 9 мифический уровень. На 7 мифическом уровне можно использовать два высших аспекта одновременно.\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.AddLord",
+    "enGB": "Add Demon Lord aspect",
+    "ruRU": "Дополнительный аспект лорда демонов"
+  },
+  {
+    "Key": "Settings.AddLordLong",
+    "enGB": "Add the demon lord aspect at the 9 mythic level.\nChanging all settings requires restarting the game!",
+    "ruRU": "Добавляет ещё одни аспект лорда демонов на 9 мифический уровень.\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.ForcedRage",
+    "enGB": "Patch Forced Rage",
+    "ruRU": "Патч Неудержимой ярости"
+  },
+  {
+    "Key": "Settings.ForcedRageDesc",
+    "enGB": "A patch for a buggy trait that was left unfinished by the Owlcats. If disabled - removes the trait, enabled - patches:\nIf a demon is under an effect that makes it frightened, disoriented, shocked, dazed, paralyzed, causing stupor, shock, nausea, or confusion, this effect is dispelled, and the demon goes into an Unstoppable rage for 2 round. Under its effect, he begins to attack the nearest target, gains a morale bonus of +8 to physical characteristics, +4 to natural armor, and a gain bonus of +30 to speed. Unstoppable Rage applies Demonic rage and aspects. Demonic Rage uses do not cost.\nChanging all settings requires restarting the game!",
+    "ruRU": "Патч недоделанной Совокотиками черты, вызывающей баги. Если отключено - удаляет черту, включено - патчит:\nЕсли демон оказывается под эффектом, делающим его напуганным, дезориентированным, потрясённым, ошеломлённым, парализованным, вызывающим ступор, шок, тошноту или замешательство, этот эффект развеивается, а демон впадает в неконтролируемую ярость на 2 раунда. Под её действием, он начинает атакавать ближайшую цель, получает бонус боевого духа +8 к физическим характеристикам, +4 к естественной броне и бонус усиления +30 к скорости. Неконтролируемая ярость применяет демоническую ярость и аспекты. Приминения демонической ярости не тратятся.\nИзменение всех настроек требует перезагрузки игры!"
+  },
+  {
+    "Key": "Settings.TailAttack",
+    "enGB": "Tail attack",
+    "ruRU": "Атака хвостом"
+  },
+  {
+    "Key": "Settings.TailAttacklong",
+    "enGB": "Add a tail attack to the first mythical demon level. The feat was made by the Owlcats themselves, they gave the tail to the demon, they were not given an attack. There is no attack animation.\nChanging all settings requires restarting the game!",
+    "ruRU": "Добавляет атаку хвостом на первый мифический уровень демона. Черту сделали сами Совокоты, хвост Демону дали, атаку им не дали. Анимации атаки нет.\nИзменение всех настроек требует перезагрузки игры!"
+  }
+]
