@@ -34,7 +34,7 @@ Limitless Demon Rage from Dark Codex
 
 More Aspects(1 minor, 1 major and 1 demon lord)
 
-"New" aspect of Lilithu, adds Charisma and demon can cast in Rage, Transformation itc
+"New" aspect of Lilithu, add Charisma bonus. During demonic rage, Aspect of Lilithu allows you to ignore effects that prohibit the cast spells and use magic items.
 
 
 
