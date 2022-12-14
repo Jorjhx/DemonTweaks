@@ -143,7 +143,7 @@ namespace DemonTweaks.Patch
                     demonSkin2_F_Lisa.OutfitParts.Remove(wingsDemonBigFL);
                     wingsDemonicStandart.OutfitParts[0] = wingsDemonBigF;
                     wingsDemonicStandart.OutfitParts[0].m_Scale.x = 1.3f;
-                    wingsDemonicStandart.OutfitParts[0].m_Scale.y = 1.4f;
+                    wingsDemonicStandart.OutfitParts[0].m_Scale.y = 1.3f;
                     wingsDemonicStandart.OutfitParts[0].m_Scale.z = 1.3f;
                     Logger.Info("Фикс крыльев");
                 }
