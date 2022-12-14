@@ -37,7 +37,8 @@ More Aspects(1 minor, 1 major and 1 demon lord)
 "New" aspect of Lilithu, add Charisma bonus. During demonic rage, Aspect of Lilithu allows you to ignore effects that prohibit the cast spells and use magic items.
 
 
-
+## Acknowledgements
+[Wolfie's modding wiki](https://github.com/WittleWolfie/OwlcatModdingWiki/wiki). 
 
 
 
