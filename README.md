@@ -38,7 +38,7 @@ More Aspects(1 minor, 1 major and 1 demon lord)
 
 
 ## Acknowledgements
-[Wolfie's modding wiki](https://github.com/WittleWolfie/OwlcatModdingWiki/wiki). 
+[Wolfie's modding wiki](https://github.com/WittleWolfie/OwlcatModdingWiki/wiki), AlterAsc, [ PATH_OF_THE_RAGE](https://github.com/Balkoth-dev/WOTR_PATH_OF_RAGE). 
 
 
 
