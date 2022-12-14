@@ -3,18 +3,18 @@
 
 Micro-compilation of Mythic Demon fixes and tweaks
 
-Mod inspired by PATH_OF_THE_RAGE
+Everything can be customized
 
 ## Visual tweaks and bugfix
 You can turn off the red skin, 'skales', tail and horns separately
 
 Double wings bugfix
 
-Demon Rage and Aspects icons
+Demon Rage and Aspects icons (code from PATH_OF_THE_RAGE)
 
 ## Patches
 
-Forced Rage bugfix
+Forced Rage bugfix (buggy hidden feature at 8 mythic lvl) 
 
 Aspect Of Deskari fix to ignore physical immunities
 
@@ -22,15 +22,21 @@ Demon Rage uses increases by 1 per mythic lvl
 
 Demon teleport at swift action
 
-Abbysal Storm does not damage the demon
+Abbysal Storm does not damage the demon (from PATH_OF_THE_RAGE)
 
-Demon Aspects fixes (Succubus,Balor,Shadow Demon,Brimorak,Kalavakus)
+Demon Aspects fixes (Succubus,Balor,Shadow Demon,Brimorak,Kalavakus) (from PATH_OF_THE_RAGE)
 
-## New
+## other
 
-#Aspect Of Lilithu
+Add demon tail attack, because why not?
 
-Demon adopts the aspect of Lilithu, gaining a bonus to Charisma ability score equal to half of the Demon's mythic rank plus one. During demonic rage, Aspect of Lilithu allows you to ignore effects that prohibit the cast spells and use magic items.
+Limitless Demon Rage from Dark Codex
+
+More Aspects(1 minor, 1 major and 1 demon lord)
+
+"New" aspect of Lilithu, adds Charisma and demon can cast in Rage, Transformation itc
+
+
 
 
 
