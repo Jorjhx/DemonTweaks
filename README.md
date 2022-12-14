@@ -26,6 +26,12 @@ Abbysal Storm does not damage the demon
 
 Demon Aspects fixes (Succubus,Balor,Shadow Demon,Brimorak,Kalavakus)
 
+## New
+
+#Aspect Of Lilithu
+
+Demon adopts the aspect of Lilithu, gaining a bonus to Charisma ability score equal to half of the Demon's mythic rank plus one. During demonic rage, Aspect of Lilithu allows you to ignore effects that prohibit the cast spells and use magic items.
+
 
 
 
