@@ -2,7 +2,7 @@
   "Id": "DemonTweaks",
   "DisplayName": "DemonTweaks",
   "Author": "Jorj",
-  "Version": "0.9",
+  "Version": "1.0",
   "ManagerVersion": "0.23.0",
   "Requirements": [ "ModMenu-1.3.0" ],
   "AssemblyName": "DemonTweaks.dll",

@@ -26,7 +26,7 @@ Abbysal Storm does not damage the demon (from PATH_OF_THE_RAGE)
 
 Demon Aspects fixes (Succubus,Balor,Shadow Demon,Brimorak,Kalavakus) (from PATH_OF_THE_RAGE)
 
-## other
+## Other
 
 Add demon tail attack, because why not?
 
