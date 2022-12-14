@@ -1,0 +1,14 @@
+{
+  "Id": "DemonTweaks",
+  "DisplayName": "DemonTweaks",
+  "Author": "Jorj",
+  "Version": "0.9",
+  "ManagerVersion": "0.23.0",
+  "Requirements": [ "ModMenu-1.3.0" ],
+  "AssemblyName": "DemonTweaks.dll",
+  "EntryMethod": "DemonTweaks.Main.Load",
+  "LoadAfter": [],
+  "HomePage": "https://github.com/TsarGorj/DemonTweaks",
+  "Repository": "https://github.com/TsarGorj/DemonTweaks/blob/main/Repository.json"
+}
+
