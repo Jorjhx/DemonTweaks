@@ -6,7 +6,7 @@ Micro-compilation of Mythic Demon fixes and tweaks
 Everything can be customized
 
 ## Visual tweaks and bugfix
-You can turn off the red skin, 'skales', tail and horns separately
+You can turn off the red skin, 'scales', tail and horns separately
 
 Double wings bugfix
 
