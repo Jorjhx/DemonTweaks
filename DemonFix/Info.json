@@ -3,12 +3,12 @@
   "DisplayName": "DemonFix",
   "Author": "Jorj",
   "Version": "0.9",
-  "ManagerVersion": "0.21.3",
+  "ManagerVersion": "0.23.0",
   "Requirements": [ "ModMenu-1.3.0" ],
   "AssemblyName": "DemonFix.dll",
   "EntryMethod": "DemonFix.Main.Load",
   "LoadAfter": [],
-  "HomePage": "https://www.nexusmods.com/pathfinderwrathoftherighteous/mods/195",
-  "Repository": "https://raw.githubusercontent.com/factubsio/BubbleBuffs/master/Repository.json"
+  "HomePage": "https://github.com/TsarGorj/DemonFix",
+  "Repository": "https://github.com/TsarGorj/DemonFix/blob/main/Repository.json"
 }
 

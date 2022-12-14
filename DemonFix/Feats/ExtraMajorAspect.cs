@@ -17,35 +17,19 @@ namespace DemonFix.Feats
         public static void AddExtraMajorAspect()
         {
             var extraMinorAspect = BlueprintTool.Get<BlueprintFeature>("a35cf0b2ceaa3524db9fcb7847ffef08");
-
             var extraMajorAspectGuid = new BlueprintGuid(new Guid("d93b74fc-08aa-42c5-be88-e21e0abcc379"));
-
-
             var extraMajorAspect = Helpers.CreateCopy(extraMinorAspect, bp =>
             {
                 bp.AssetGuid = extraMajorAspectGuid;
                 bp.name = ExtraMajorAspectName + bp.AssetGuid;
             });
-            extraMajorAspect.m_DisplayName = Helpers.CreateString(extraMajorAspect + ".Name", ExtraMajorAspectName);
-            var extraMajorAspectDescription = ExtraMajorAspectDescription;
-
-            extraMajorAspect.m_Description = Helpers.CreateString(extraMajorAspect + ".Description", ExtraMajorAspectDescription);
-
+            extraMajorAspect.m_DisplayName = LocalizationTool.GetString(ExtraMajorAspectName);
+            extraMajorAspect.m_Description = LocalizationTool.GetString(ExtraMajorAspectDescription);
             extraMajorAspect.EditComponent<IncreaseActivatableAbilityGroupSize>(c =>
             {
                 c.Group = ActivatableAbilityGroup.DemonMajorAspect;
             });
-            //extraMajorAspect.AddComponent<IncreaseActivatableAbilityGroupSize>(c =>
-            //{
-            //    c.Group = ActivatableAbilityGroup.DemonMajorAspect;
-            //});
-
             Helpers.AddBlueprint(extraMajorAspect, extraMajorAspectGuid);
-
-            FeatureConfigurator.For(extraMajorAspect)
-            .SetDisplayName(ExtraMajorAspectName)
-            .SetDescription(ExtraMajorAspectDescription)
-            .Configure(delayed: true);
             Logger.Info("Добавлен фит: " + extraMajorAspectGuid);
         }
     }

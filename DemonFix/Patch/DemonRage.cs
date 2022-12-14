@@ -9,13 +9,14 @@ using System.Linq;
 using BlueprintCore.Blueprints.CustomConfigurators.Classes;
 using HarmonyLib;
 using Kingmaker.Blueprints.JsonSystem;
+using Kingmaker.UnitLogic.Buffs.Blueprints;
 
 namespace DemonFix.Patch
 {
     class DemonRagePatch
     {
         private static readonly LogWrapper Logger = LogWrapper.Get("DemonFix.DemonRage");
-
+        private static readonly string demonRageDescription = "DemonRage.Description";
         [HarmonyPatch(typeof(BlueprintsCache), "Init")]
         static class BlueprintsCache_Init_Patch
         {
@@ -34,9 +35,15 @@ namespace DemonFix.Patch
                 {
                     return;
                 }
+                var demonRageFeature = BlueprintTool.Get<BlueprintFeature>("6a8af3f208a0fa747a465b70b7043019");
+                var demonRageBuff = BlueprintTool.Get<BlueprintBuff>("36ca5ecd8e755a34f8da6b42ad4c965f");
+                var demonRageAbility = BlueprintTool.Get<BlueprintAbility>("260daa5144194a8ab5117ff568b680f5");
+                demonRageFeature.m_Description = LocalizationTool.GetString(demonRageDescription); 
+                demonRageBuff.m_Description = LocalizationTool.GetString(demonRageDescription);
+                demonRageAbility.m_Description = LocalizationTool.GetString(demonRageDescription);
                 var demonRageResource = BlueprintTool.Get<BlueprintAbilityResource>("f3bf174f0f86b4f45a823e9ed6ccc7a5");
                 demonRageResource.m_MaxAmount.LevelStep = 1;
-                demonRageResource.m_MaxAmount.PerStepIncrease = 2;
+                demonRageResource.m_MaxAmount.PerStepIncrease = 1;
                 Logger.Info("Пропатчено");
             }
             //form DarkCodex

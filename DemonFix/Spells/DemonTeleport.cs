@@ -11,7 +11,6 @@ using System.Collections.Generic;
 
 namespace DemonFix.Spells
 {
-    [HarmonyPriority(Priority.Last)]
     [HarmonyPatch(typeof(BlueprintsCache), "Init")]
     static class BlueprintsCache_Init_Patch
     {
@@ -49,13 +48,13 @@ namespace DemonFix.Spells
             {
                 return;
             }
-            var demonSpellList = BlueprintTool.Get<BlueprintSpellList>("abb1991bf6e996348bb743471ee7e1c1");
-            demonSpellList.SpellsByLevel[4].m_Spells[4] = null;         
             var teleport = BlueprintTool.Get<BlueprintAbility>("b3e8e307811b2a24387c2c9226fb4c10");
             teleport.m_Description = LocalizationTool.GetString(FeatDescr);
             teleport.RemoveComponents<SpellListComponent>();
             teleport.ActionType = UnitCommand.CommandType.Swift;
             teleport.Range = AbilityRange.DoubleMove;
+            var demonSpellList = BlueprintTool.Get<BlueprintSpellList>("abb1991bf6e996348bb743471ee7e1c1");
+            demonSpellList.SpellsByLevel[4].Spells.Remove(teleport);
         }
     }
 }

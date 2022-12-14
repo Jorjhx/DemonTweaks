@@ -75,31 +75,31 @@ namespace DemonFix
             }
         }
 
-        [HarmonyPatch(typeof(StartGameLoader))]
-        static class StartGameLoader_Patch
-        {
-            private static bool Initialized = false;
+        //[HarmonyPatch(typeof(StartGameLoader))]
+        //static class StartGameLoader_Patch
+        //{
+        //    private static bool Initialized = false;
 
-            [HarmonyPatch(nameof(StartGameLoader.LoadPackTOC)), HarmonyPostfix]
-            static void LoadPackTOC()
-            {
-                try
-                {
-                    if (Initialized)
-                    {
-                        Logger.Info("Already configured delayed blueprints.");
-                        return;
-                    }
-                    Initialized = true;
+        //    [HarmonyPatch(nameof(StartGameLoader.LoadPackTOC)), HarmonyPostfix]
+        //    static void LoadPackTOC()
+        //    {
+        //        try
+        //        {
+        //            if (Initialized)
+        //            {
+        //                Logger.Info("Already configured delayed blueprints.");
+        //                return;
+        //            }
+        //            Initialized = true;
 
-                    RootConfigurator.ConfigureDelayedBlueprints();
-                }
-                catch (Exception e)
-                {
-                    Logger.Error("Failed to configure delayed blueprints.", e);
-                }
-            }
-        }
+        //            RootConfigurator.ConfigureDelayedBlueprints();
+        //        }
+        //        catch (Exception e)
+        //        {
+        //            Logger.Error("Failed to configure delayed blueprints.", e);
+        //        }
+        //    }
+        //}
         internal class SettingsStarter
         {
             [HarmonyPatch(typeof(BlueprintsCache), nameof(BlueprintsCache.Init))]

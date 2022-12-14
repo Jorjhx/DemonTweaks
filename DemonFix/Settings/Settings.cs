@@ -99,8 +99,8 @@ namespace DemonFix
         public bool ShadowDemon => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("shadowdemon"));
         public bool Balor => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("balor"));
         public bool Succuba => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("succuba"));
-        public bool Kalavacus => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("kalavacus"));
-        public bool Brimorak => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("Brimorak"));
+        public bool Kalavacus => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("kalavakus"));
+        public bool Brimorak => ModMenu.ModMenu.GetSettingValue<bool>(GetKey("brimorak"));
 
 
         #endregion

@@ -6,6 +6,7 @@ using Kingmaker.Blueprints.JsonSystem;
 using Kingmaker.EntitySystem.Entities;
 using Kingmaker.Visual.CharacterSystem;
 using System;
+using static Kingmaker.Modding.OwlcatModificationsWindow;
 
 namespace DemonFix.Patch
 {

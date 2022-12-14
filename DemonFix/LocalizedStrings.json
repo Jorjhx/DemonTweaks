@@ -7,8 +7,8 @@
   },
   {
     "Key": "AspectOfLilithu.Description",
-    "enGB": "The demon takes on the aspect of Gallu, gaining an additional bite attack.\nWhile the demon remains enraged, it creates an aura of confusion around itself. {g|Encyclopedia:Flanking}The numerical advantage{/g} of enemies affected by this aura does not work.",
-    "ruRU": "Демон приобретает аспект Лилиту, {g|Encyclopedia:Bonus}получая бонус{/g} к {g|Encyclopedia:Charisma}Харизме{/g}, равный половине мифического уровня демона плюс один.\nВо время демонической ярости аспект Лилиту позволяет игнорировать эффекты, запрещающие использовать заклинания."
+    "enGB": "Demon adopts the aspect of Lilithu, {g|Encyclopedia:Bonus}gaining a bonus{/g} to {g|Encyclopedia:Charisma}Charisma{/g} ability score equal to half of the Demon's mythic rank plus one.\nDuring demonic rage, Aspect of Lilithu allows you to ignore effects that prohibit the cast spells and use magic items.",
+    "ruRU": "Демон приобретает аспект Лилиту, {g|Encyclopedia:Bonus}получая бонус{/g} к {g|Encyclopedia:Charisma}Харизме{/g}, равный половине мифического уровня демона плюс один.\nВо время демонической ярости аспект Лилиту позволяет игнорировать эффекты, запрещающие использовать заклинания и магические предметы."
   },
   {
     "Key": "AspectOfGallu.Name",
@@ -53,6 +53,12 @@
     "Key": "DemonForcedRageFeature.Description",
     "enGB": "If a demon is under an effect that makes it frightened, disoriented, shocked, dazed, paralyzed, causing stupor, shock, nausea, or confusion, this effect is dispelled, and the demon goes into an Unstoppable rage for 2 round. Under its effect, he begins to attack the nearest target, gains a morale bonus of +8 to physical characteristics, +4 to natural armor, and a gain bonus of +30 to speed. Unstoppable Rage applies Demonic rage and aspects. Demonic Rage uses do not cost.",
     "ruRU": "Если демон оказывается под эффектом, делающим его напуганным, дезориентированным, потрясённым, ошеломлённым, парализованным, вызывающим ступор, шок, тошноту или замешательство, этот эффект развеивается, а демон впадает в неконтролируемую ярость на 2 раунда. Под её действием, он начинает атакавать ближайшую цель, получает бонус боевого духа +8 к физическим характеристикам, +4 к естественной броне и бонус усиления +30 к скорости. Неконтролируемая ярость применяет демоническую ярость и аспекты. Приминения демонической ярости не тратятся."
+  },
+  {
+    "Key": "DemonRage.Description",
+    "ProcessTemplates": false,
+    "enGB": "The power of the Abyss courses through the Demon waiting to be unleashed. The Demon can enter a demonic rage as a {g|Encyclopedia:Free_Action}free action{/g}. The demonic rage lasts until the end of combat. While in demonic rage, the Demon gains +2 {g|Encyclopedia:Bonus}bonus{/g} on {g|Encyclopedia:Attack}attack rolls{/g}, {g|Encyclopedia:Damage}damage rolls{/g}, {g|Encyclopedia:Caster_Level}caster level{/g} {g|Encyclopedia:Check}checks{/g} and Reflex saving throws. The {g|Encyclopedia:DC}DC{/g} for all {g|Encyclopedia:Saving_Throw}saving throws{/g} against Demon's {g|Encyclopedia:Spell}spells{/g} and abilities are increased by 2. These benefits increase by 1 at 6th and 9th mythic ranks.\nYou can use Demonic Rage 3 times per day. Number of uses increases by 1 for each next mythic rank.",
+    "ruRU": "Мощь бездны течет по венам демона, ожидая выхода на волю. Демон может впасть в демоническую ярость, совершив {g|Encyclopedia:Free_Action}свободное действие{/g}. Демоническая ярость длится до конца боя. Находясь в состоянии демонической ярости, демон {g|Encyclopedia:Bonus}получает бонус{/g} +2 к {g|Encyclopedia:Attack}броскам на попадание{/g}, броскам на {g|Encyclopedia:Damage}урон{/g}, {g|Encyclopedia:Check}проверкам{/g} {g|Encyclopedia:Caster_Level}уровня заклинателя{/g} и спасброскам Реакции. {g|Encyclopedia:DC}Сложность{/g} всех {g|Encyclopedia:Saving_Throw}спасбросков{/g} против {g|Encyclopedia:Spell}заклинаний{/g} и способностей демона увеличивается на 2. Эти преимущества увеличиваются на 1 на 6 и 9 мифических уровнях.\nВы можете использовать Демоническую ярость 3 раза в день. Число использований увеличивается на 1 за каждый следующий мифический уровень."
   },
   {
     "Key": "DemonTeleportFeature.Description",
@@ -124,7 +130,7 @@
     "enGB": "Disables big demon tail.\nChanging all settings requires restarting the game!",
     "ruRU": "Отключает большой демонический хвост.\nИзменение всех настроек требует перезагрузки игры!"
   },
-    {
+  {
     "Key": "Settings.DemonHorns",
     "enGB": "Disable horns",
     "ruRU": "Отключить рога"
