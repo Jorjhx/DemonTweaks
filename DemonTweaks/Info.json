@@ -8,7 +8,7 @@
   "AssemblyName": "DemonTweaks.dll",
   "EntryMethod": "DemonTweaks.Main.Load",
   "LoadAfter": [],
-  "HomePage": "https://github.com/TsarGorj/DemonFix",
-  "Repository": "https://github.com/TsarGorj/DemonFix/blob/main/Repository.json"
+  "HomePage": "https://github.com/Jorjhx/DemonTweaks",
+  "Repository": "https://github.com/Jorjhx/DemonTweaks/blob/main/Repository.json"
 }
 
